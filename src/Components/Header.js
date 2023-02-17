@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header(){
     return(<>
-      <Navbar bg="dark" expand="lg" variant="dark">
+      <Navbar expand="lg" variant="light">
       <Container>
         <Navbar.Brand href="#home">My Todo Application</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
