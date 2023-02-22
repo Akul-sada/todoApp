@@ -1,22 +1,14 @@
-import React from "react";
-import "../App.css";
+import React from 'react'
 
-export const Todo = () => {
+const Todo = () => {
   return (
-    <>
-      <div className="todo-container">
-        <ul className="todo-list">
-          <div className="todo">
-            <li className="todo-item">add</li>
-            <button className="complete-btn">
-              <i className="fas fa-check"></i>
-            </button>
-            <button className="trash-btn">
-              <i className="fas fa-trash"></i>
-            </button>
-          </div>
-        </ul>
-      </div>
-    </>
+    <div className="todo">
+      <div className="todo-item">Heyy</div>
+      <button className="complete-btn"><i className="fas fa-check"></i></button>
+      <button className="trash-btn"><i className='fas fa-trash'></i></button>
+
+    </div>
   );
-};
+}
+
+export default Todo
