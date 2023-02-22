@@ -1,15 +1,21 @@
 import React from "react";
+import '../App.css';
 
-
-const Form =()=>{
+const Form =({setInputText,setTodos})=>{
+  const inputTextHandler =(e)=>{
+    console.log(e.target.value)
+  };
+  const submitTodoHandler =(e)=>{
+    e.preventDefault();
+  };
     return(<>
-        <form>
-      <input type="text" class="todo-input" />
-      <button class="todo-button" type="submit">
-        <i class="fas fa-plus-square"></i>
+    <form>
+      <input onChange={inputTextHandler} type="text" className="todo-input" name="todo" />
+      <button onClick={submitTodoHandler} className="todo-button" type="submit">
+        <i className="fas fa-plus-square"></i>
       </button>
-      <div class="select">
-        <select name="todos" class="filter-todo">
+      <div className="select">
+        <select name="todos" className="filter-todo">
           <option value="all">All</option>
           <option value="completed">Completed</option>
           <option value="uncompleted">Uncompleted</option>
