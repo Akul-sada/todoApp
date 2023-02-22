@@ -1,13 +1,17 @@
-import React from 'react'
+import React from 'react';
+import '../style.css';
 
 const Todo = () => {
   return (
+    <>
     <div className="todo">
-      <div className="todo-item">Heyy</div>
-      <button className="complete-btn"><i className="fas fa-check"></i></button>
-      <button className="trash-btn"><i className='fas fa-trash'></i></button>
+      <li className="todo-item">add</li>
+      <button className="complete-btn"><i className="fas fa-check"></i></button> 
+      <button className="trash-btn"><i className="fas fa-trash"></i></button>
     </div>
+    </>
+    
   );
 }
 
-export default Todo
+export default Todo;
