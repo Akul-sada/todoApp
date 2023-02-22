@@ -1,4 +1,4 @@
-import React,{Component, useState} from "react";
+import React, { useState} from "react";
 import Header from "./Components/Header";
 import Form from "./Components/Form";
 import Todolist from "./Components/Todolist";
