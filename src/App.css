@@ -28,10 +28,7 @@
     border: none;
     background: white;
   }
-  form input{
-    max-width: 39rem;
-    
-  }
+
   form button.todo-button {
     color: #4040C9;
     background: #f7fffe;
@@ -142,3 +139,8 @@
     transform: scale(1.5);
   }
   */
+  @media only screen and (max-width: 370px) {
+    html{
+      font-size: 40%;
+    }
+  }
