@@ -2,7 +2,7 @@
 
 
 
-<a href="https://sadanand-todo-app.netlify.app/" target="blank" style="font-size: 40px;">Live Preview</a>
+<a href="https://sadanand-todo-app.netlify.app/" target="_blank" style="font-size: 40px;">Live Preview</a>
 
 This project is a web applicaion used to manage tasks.
 
